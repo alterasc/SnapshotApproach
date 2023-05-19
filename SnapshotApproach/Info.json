@@ -1,13 +1,13 @@
 ﻿{
   "AssemblyName": "SnapshotApproach.dll",
   "Author": "AlterAsc",
-  "DisplayName": "SnapshotApproach",
+  "DisplayName": "Snap Shot Approach",
   "EntryMethod": "SnapshotApproach.Main.Load",
   "GameVersion": "2.1.3",
-  "HomePage": "",
+  "HomePage": "https://www.nexusmods.com/pathfinderwrathoftherighteous/mods/498",
   "Id": "SnapshotApproach",
   "ManagerVersion": "0.23.0",
-  "Repository": "",
+  "Repository": "https://raw.githubusercontent.com/alterasc/SnapshotApproach/main/Repository.json",
   "Requirements": [ "ModMenu-1.2.5" ],
   "LoadAfter": [ "MewsiferConsole.Mod" ],
   "Version": "1.0.0"

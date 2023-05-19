@@ -10,12 +10,12 @@ namespace SnapshotApproach
         {
             ModMenu.ModMenu.AddSettings(
               SettingsBuilder
-                .New(GetKey("title"), CreateString("title", "Snapshot Approach"))
+                .New(GetKey("title"), CreateString("title", "Snap Shot Approach"))
                 .AddSliderInt(SliderInt.New(GetKey("snapshot"), 5, CreateString("snapshot", "Snap Shot approach range"), 0, 30))
                 .AddSliderInt(SliderInt.New(GetKey("improvedsnapshot"), 10, CreateString("improvedsnapshot", "Improved Snap Shot approach range"), 0, 30))
                 .AddSliderInt(SliderInt.New(GetKey("greatersnapshot"), 15, CreateString("greatersnapshot", "Greater Snap Shot approach range"), 0, 30))
-                .AddToggle(Toggle.New(GetKey("rangedthreatfix"), true, CreateString("rangedthreatfix", "Fix base snap shot range being affected by size"))
-                .WithLongDescription(CreateString("rangedthreatfix.desc", "In base game snap shot range is not 5 feet but instead is taken as base threat range, which is modified by character size. This changes calculation for snap shot base threat range to be fixed 5 feet regardless of character size")))
+                .AddToggle(Toggle.New(GetKey("rangedthreatfix"), true, CreateString("rangedthreatfix", "Fix base Snap Shot range being affected by size"))
+                .WithLongDescription(CreateString("rangedthreatfix.desc", "In base game Snap Shot range is not 5 feet but instead is taken as base threat range, which is modified by character size. This changes calculation for Snap Shot base threat range to be fixed 5 feet regardless of character size")))
             );
         }
 
