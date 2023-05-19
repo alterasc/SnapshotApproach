@@ -1,0 +1,14 @@
+﻿{
+  "AssemblyName": "SnapshotApproach.dll",
+  "Author": "AlterAsc",
+  "DisplayName": "SnapshotApproach",
+  "EntryMethod": "SnapshotApproach.Main.Load",
+  "GameVersion": "2.1.3",
+  "HomePage": "",
+  "Id": "SnapshotApproach",
+  "ManagerVersion": "0.23.0",
+  "Repository": "",
+  "Requirements": [ "ModMenu-1.2.5" ],
+  "LoadAfter": [ "MewsiferConsole.Mod" ],
+  "Version": "1.0.0"
+}
